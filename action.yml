@@ -1,12 +1,12 @@
 name: 'Label Checker'
 description: 'Checks labels on PRs'
 inputs:
-  labels:  # id of input
-    description: 'Comma seperated list of labesl to check'
+  labels: 
+    description: 'Comma seperated list of labels to check'
     required: true
     default: ''
 outputs:
-  pass: # id of output
+  pass: 
     description: 'Was the label present'
 runs:
   using: 'node16'
