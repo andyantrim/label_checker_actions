@@ -1,0 +1,13 @@
+name: 'Label Checker'
+description: 'Checks labels on PRs'
+inputs:
+  labels:  # id of input
+    description: 'Comma seperated list of labesl to check'
+    required: true
+    default: 'qapass,devonly,emergency,release'
+outputs:
+  pass: # id of output
+    description: 'Was the label present'
+runs:
+  using: 'node16'
+  main: 'index.js'
