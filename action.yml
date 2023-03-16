@@ -4,7 +4,7 @@ inputs:
   labels:  # id of input
     description: 'Comma seperated list of labesl to check'
     required: true
-    default: 'qapass,devonly,emergency,release'
+    default: ''
 outputs:
   pass: # id of output
     description: 'Was the label present'
