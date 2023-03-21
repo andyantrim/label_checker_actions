@@ -1,5 +1,7 @@
 name: 'Label Checker'
 description: 'Checks labels on PRs'
+icon: 'tag'
+colour: 'orange'
 inputs:
   labels: 
     description: 'Comma seperated list of labels to check'
